@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static',filename='style1.css')}}">
+        <title>dht11 sensor</title>
+</head>
+<body>
+    <div class="btns">
+        <button id="timedht" >현재 온습도</button>
+        <button id="record">지난 온습도</button>
+    </div>
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>날짜</th>
+                    <th>시간</th>
+                    <th>온도(*C)</th>
+                    <th>습도(%)</th>
+                </tr>
+            </thead>
+            <tbody id="table">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="{{url_for('static', filename='index.js')}}"></script>
+</body>
+</html>
+

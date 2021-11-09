@@ -1,0 +1,41 @@
+body{
+  background-color: #F8E0EC;
+}
+.btns{
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+}
+
+.btns>button {
+        margin-left: 2%;
+        font-size: 5vw;
+        font-family: 'Nanum Gothic';
+        color: #FA5882;
+        line-height: 60px;
+        text-align: center;
+        background: #F6CED8;
+        border: solid 2px grey;
+        border-radius: 20px;
+}
+
+table {
+        width: 100%;
+}
+
+th {
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+}
+
+th:nth-child(1) {
+        width: 10%;
+}
+th:nth-child(2) {
+        width: 30%;
+}
+
+th:nth-child(3), th:nth-child(4), th:nth-child(5) {
+        width: 20%;
+}
+
